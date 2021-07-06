@@ -8,6 +8,7 @@ body{
     color: orangered;
 }
 .big-font{
+    padding-top: 60px;
     font-size: 50px;
     font-weight: 700;
 }
@@ -24,11 +25,11 @@ p{
     text-align: justify;
     color: gray;
 }
-.hire-button{
+.order-button{
     text-decoration: none;
     background-image: linear-gradient(45deg,red,orange);
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 30px;
     color: white;
 }
 .shadow-box{

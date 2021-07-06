@@ -1,8 +1,9 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'montserrat', sans-serif;
 }
 .flex-display{
     display: flex;
+    margin-bottom: 100px;
 }
 .orange-text{
     color: orangered;
@@ -11,6 +12,7 @@ body{
     padding-top: 60px;
     font-size: 50px;
     font-weight: 700;
+    color: rgb(92, 92, 92);
 }
 H2{
     font-size: 35PX;
@@ -18,8 +20,7 @@ H2{
 .half-size{
     width: 90%;
     padding-left: 2%;
-    margin-left: 2%; 
-    margin-bottom: 100px;  
+    margin-left: 2%;   
 }
 p{
     text-align: justify;
@@ -34,20 +35,38 @@ p{
     border-radius: 30px;
     color: white;
 }
+#bg-poster{
+    background-image: url(../images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 .shadow-box{
-    box-shadow: 10px 10px 5px gray;
+    box-shadow: 5px 5px 5px 5px  rgb(192, 192, 192);
     text-align: center;
 }
 .recipe-card{
     width: 35%;
-    padding: 1%;
+    padding-top: 2%;
     margin-left: 5%;
     border-radius: 20px;
-    background-color: aquamarine;
 }
 .card-images{
     width: 80%;
     border-radius: 5%;
+}
+.card-p{
+    text-align: justify;
+    color: gray;
+    margin-bottom: 50px;
+    padding: 5%;
+}
+#about-section{
+    padding-top: 5em;
+    margin: auto;
+
+}
+#recipe-intro{
+    text-align: center;
 }
 #stack{
     border-left: 10px solid;

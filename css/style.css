@@ -10,7 +10,6 @@ body{
     color: orangered;
 }
 .big-font{
-    padding-top: 60px;
     font-size: 50px;
     font-weight: 700;
     color: rgb(92, 92, 92);
@@ -41,8 +40,8 @@ body{
 }
 .recipe-card{
     width: 35%;
+    margin: 3%;
     padding-top: 2%;
-    margin-left: 5%;
     border-radius: 20px;
 }
 .card-images{
@@ -64,14 +63,18 @@ body{
     border-image: linear-gradient(blue,teal);
     border-image-slice: 1;
 }
-#baby{
-    border-left: 10px solid;
-    border-radius: 5px;
-    border-image: linear-gradient(indigo,brown);
-    border-image-slice: 1;
-}
 #fresh-gray{
     color: rgb(92, 92, 92);
+}
+.stats{
+    text-align: center;
+    color: black;
+    padding-left: 15%;
+}
+#stat-bg{
+    margin-left: 10%;
+    margin-right: 10%;
+    box-shadow: 5px 5px 5px 5px  rgb(192, 192, 192);
 }
 footer{
     margin-top: 20px;

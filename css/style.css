@@ -1,5 +1,6 @@
 body{
     font-family: 'montserrat', sans-serif;
+
 }
 .flex-display{
     display: flex;
@@ -14,20 +15,12 @@ body{
     font-weight: 700;
     color: rgb(92, 92, 92);
 }
-H2{
-    font-size: 35PX;
-}
 .half-size{
     width: 90%;
     padding-left: 2%;
-    margin-left: 2%;   
+    margin: auto;   
 }
-p{
-    text-align: justify;
-    color: gray;
-    margin-bottom: 50px;
-    padding-right: 5%;
-}
+
 .order-button{
     text-decoration: none;
     background-image: linear-gradient(45deg,red,orange);
@@ -55,15 +48,8 @@ p{
     border-radius: 5%;
 }
 .card-p{
-    text-align: justify;
-    color: gray;
-    margin-bottom: 50px;
     padding: 5%;
-}
-#about-section{
-    padding-top: 5em;
-    margin: auto;
-
+    font-weight: 300;
 }
 #recipe-intro{
     text-align: center;
@@ -80,7 +66,12 @@ p{
     border-image: linear-gradient(indigo,brown);
     border-image-slice: 1;
 }
+#fresh-gray{
+    color: rgb(92, 92, 92);
+}
 footer{
+    padding-top: 20px;
     text-align: center;
-    color: gray;
+    color: white;
+    background-color: black;
 }

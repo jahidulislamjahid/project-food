@@ -27,6 +27,8 @@ body{
     padding: 10px 40px;
     border-radius: 30px;
     color: white;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 #bg-poster{
     background-image: url(../images/shapes/7.png);
@@ -53,6 +55,8 @@ body{
 }
 #recipe-intro{
     text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
 }
 #stack{
     border-left: 10px solid;
@@ -70,6 +74,7 @@ body{
     color: rgb(92, 92, 92);
 }
 footer{
+    margin-top: 20px;
     padding-top: 20px;
     text-align: center;
     color: white;
